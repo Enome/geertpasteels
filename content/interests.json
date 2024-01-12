@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Sports",
+    "keywords": ["Cycling", "Running"]
+  },
+
+  {
+    "name": "Bread",
+    "keywords": ["Sourdough", "Flat", "Pizza"]
+  },
+
+  {
+    "name": "Fishing"
+  }
+]

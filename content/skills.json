@@ -1,0 +1,122 @@
+[
+  { "category": "Languages", "name": "JavaScript", "level": 3, "when": 1 },
+  { "category": "Languages", "name": "TypeScript", "level": 2, "when": 1 },
+  { "category": "Languages", "name": "Python", "level": 2, "when": 1 },
+  { "category": "Languages", "name": "CSS", "level": 3, "when": 1 },
+  { "category": "Languages", "name": "HTML", "level": 3, "when": 1 },
+  { "category": "Languages", "name": "Clojure", "level": 2, "when": 3 },
+  { "category": "Languages", "name": "C#", "level": 2, "when": 3 },
+  { "category": "Languages", "name": "VB.NET", "level": 2, "when": 3 },
+  { "category": "Front-end", "name": "React.js", "level": 3, "when": 1 },
+  { "category": "Front-end", "name": "Tailwind", "level": 3, "when": 1 },
+  { "category": "Front-end", "name": "Data Viz", "level": 3, "when": 1 },
+  {
+    "category": "Front-end",
+    "name": "Create React App",
+    "level": 3,
+    "when": 1
+  },
+  { "category": "Front-end", "name": "AngularJS", "level": 2, "when": 3 },
+  { "category": "Front-end", "name": "Knockout.js", "level": 2, "when": 3 },
+  { "category": "Front-end", "name": "Backbone.js", "level": 2, "when": 3 },
+  { "category": "Front-end", "name": "jQuery", "level": 3, "when": 3 },
+  { "category": "Front-end", "name": "Storybook", "level": 2, "when": 2 },
+  { "category": "Front-end", "name": "Design Systems", "level": 3, "when": 2 },
+  { "category": "Back-end", "name": "Node.js", "level": 3, "when": 1 },
+  { "category": "Back-end", "name": "Express.js", "level": 3, "when": 1 },
+  { "category": "Back-end", "name": "Adonis.js", "level": 2, "when": 1 },
+  { "category": "Back-end", "name": "Next.js", "level": 2, "when": 1 },
+  { "category": "Back-end", "name": "Flask", "level": 2, "when": 1 },
+  { "category": "Back-end", "name": "Django", "level": 2, "when": 2 },
+  { "category": "Both-end", "name": "GraphQL", "level": 2, "when": 3 },
+  { "category": "Both-end", "name": "OpenAPI", "level": 2, "when": 1 },
+  { "category": "Both-end", "name": "Vite", "level": 3, "when": 1 },
+  { "category": "Both-end", "name": "Webpack", "level": 3, "when": 2 },
+  { "category": "Both-end", "name": "Unit Testing", "level": 3, "when": 1 },
+  {
+    "category": "Both-end",
+    "name": "Integration Testing",
+    "level": 3,
+    "when": 1
+  },
+  {
+    "category": "Both-end",
+    "name": "Puppeteer",
+    "level": 2,
+    "when": 1
+  },
+  { "category": "Both-end", "name": "Git", "level": 3, "when": 1 },
+  { "category": "Both-end", "name": "Monorepo", "level": 3, "when": 1 },
+  {
+    "category": "Database Technologies",
+    "name": "PostgreSQL",
+    "level": 3,
+    "when": 1
+  },
+  {
+    "category": "Database Technologies",
+    "name": "MySQL",
+    "level": 1,
+    "when": 3
+  },
+  {
+    "category": "Database Technologies",
+    "name": "SQLite",
+    "level": 2,
+    "when": 1
+  },
+  {
+    "category": "Database Technologies",
+    "name": "Snowflake",
+    "level": 3,
+    "when": 1
+  },
+  {
+    "category": "Database Technologies",
+    "name": "CouchDB",
+    "level": 2,
+    "when": 3
+  },
+  {
+    "category": "Database Technologies",
+    "name": "MongoDB",
+    "level": 2,
+    "when": 3
+  },
+  { "category": "Infrastructure", "name": "CI/CD", "level": 1, "when": 1 },
+  { "category": "Infrastructure", "name": "Docker", "level": 3, "when": 1 },
+  { "category": "Infrastructure", "name": "Portainer", "level": 3, "when": 1 },
+  { "category": "Infrastructure", "name": "Kubernetes", "level": 1, "when": 2 },
+  { "category": "Infrastructure", "name": "Openshift", "level": 3, "when": 1 },
+  { "category": "Infrastructure", "name": "Cockpit", "level": 2, "when": 1 },
+  { "category": "Infrastructure", "name": "ZFS", "level": 2, "when": 2 },
+  { "category": "Infrastructure", "name": "NGIX", "level": 2, "when": 1 },
+  { "category": "Infrastructure", "name": "Traefik", "level": 2, "when": 1 },
+  { "category": "Infrastructure", "name": "VFIO", "level": 2, "when": 2 },
+  { "category": "Software", "name": "VS Code", "level": 3, "when": 1 },
+  { "category": "Software", "name": "Vim", "level": 3, "when": 1 },
+  { "category": "Software", "name": "Emacs", "level": 3, "when": 2 },
+  { "category": "Software", "name": "Figma", "level": 2, "when": 2 },
+  {
+    "category": "Software",
+    "name": "Affinity Designer",
+    "level": 3,
+    "when": 1
+  },
+  {
+    "category": "Software",
+    "name": "Adobe Creative Suite",
+    "level": 3,
+    "when": 3
+  },
+  { "category": "Operating Systems", "name": "Fedora", "level": 3, "when": 2 },
+  { "category": "Operating Systems", "name": "Ubuntu", "level": 3, "when": 1 },
+  { "category": "Operating Systems", "name": "Arch", "level": 2, "when": 3 },
+  { "category": "Operating Systems", "name": "macOS", "level": 3, "when": 1 },
+  { "category": "Operating Systems", "name": "Windows", "level": 3, "when": 1 },
+  { "category": "Project Management", "name": "JIRA", "level": 3, "when": 1 },
+  { "category": "Project Management", "name": "Gitlab", "level": 3, "when": 1 },
+  { "category": "Project Management", "name": "Github", "level": 3, "when": 1 },
+  { "category": "Project Management", "name": "Rally", "level": 2, "when": 3 },
+  { "category": "Project Management", "name": "Trello", "level": 3, "when": 3 }
+]
