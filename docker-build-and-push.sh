@@ -1,12 +1,12 @@
-DEVISRUNNING=$(curl -Is http://0.0.0.0:3000 | head -n 1)
+# DEVISRUNNING=$(curl -Is http://0.0.0.0:3000 | head -n 1)
 
-echo "===== Creating PDF ====="
+# echo "===== Creating PDF ====="
 
-if [[ $DEVISRUNNING == *"200"* ]]; then
-    npm run pdf
-else
-    echo "~~~ FAILED - DEV not running ~~~"
-fi
+# if [[ $DEVISRUNNING == *"200"* ]]; then
+#     npm run pdf
+# else
+#     echo "~~~ FAILED - DEV not running ~~~"
+# fi
 
 echo "===== BUILDING Next.js ====="
 
