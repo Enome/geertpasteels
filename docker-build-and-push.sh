@@ -18,4 +18,4 @@ read -p "Enter version: " VERSION
 docker build --platform=linux/amd64 -t enome/geertpasteelsbe:$VERSION .
 docker push enome/geertpasteelsbe:$VERSION
 
-git tag -a $VERSION 
+git tag $VERSION 

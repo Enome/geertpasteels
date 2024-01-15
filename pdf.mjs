@@ -1,5 +1,4 @@
 import puppeteer from "puppeteer";
-import fs from "fs";
 
 (async () => {
   const browser = await puppeteer.launch({ headless: "new" });
@@ -10,8 +9,8 @@ import fs from "fs";
   // const elem = await page.$("html");
   // const boundingBox = await elem.boundingBox();
 
-  const pdf = await page.pdf({
-    path: "resume.pdf",
+  await page.pdf({
+    path: "./public/resume.pdf",
     format: "A4",
     // width: "210mm",
     //height: `${boundingBox.height + 60}px`,
@@ -22,8 +21,6 @@ import fs from "fs";
       right: "20px",
     },
   });
-
-  fs.writeFileSync("./public/resume.pdf", pdf);
 
   await browser.close();
 })();

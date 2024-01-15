@@ -40,7 +40,7 @@ export default function Page() {
       >
         <Image
           className={cx("rounded-full", "border-2", "border-primary-500")}
-          src="/me.jpeg"
+          src="/me.jpg"
           alt="Picture of the author"
           width={80}
           height={80}
