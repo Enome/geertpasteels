@@ -19,12 +19,13 @@ export default function Page() {
         "w-[210mm]",
         "mx-auto",
         "border",
-        "p-6",
+        "py-6",
+        "px-14",
         "bg-white",
         "print:w-full",
         "print:mx-initial",
         "print:border-0",
-        "print:p-0",
+        "print:py-0",
       )}
     >
       {/* Header */}
@@ -35,7 +36,9 @@ export default function Page() {
           "items-center",
           "justify-center",
           "gap-3",
-          "mb-8",
+          "mb-10",
+          "pb-10",
+          "border-b",
         )}
       >
         <Image
@@ -60,68 +63,66 @@ export default function Page() {
         <Contact className={cx("flex", "flex-row", "gap-6")} />
       </div>
 
-      {/* Dont use grid, it breaks the page breaks in FF */}
+      {/* Content */}
 
-      <div className={cx("flex")}>
-        {/* Sidebar */}
+      <section className={cx("text-sm", "mb-10")}>
+        <ContentSection>
+          <Title id="about-me">About me</Title>
+          <MdxContent path="/intro.mdx" />
 
-        <div
-          className={cx(
-            "min-w-[180px]",
-            "border-r",
-            "flex",
-            "flex-col",
-            "items-center",
-            "gap-4",
-            "text-center",
-            "text-sm",
-          )}
-        >
-          <Languages />
-          <Profiles />
-          <Interests />
-        </div>
+          <p className="pt-2">
+            For an extended version of this resume visit{" "}
+            <a
+              className={cx("text-pink-600", "hover:underline")}
+              href="https://geertpasteels.be"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://geertpasteels.be
+            </a>
+          </p>
+        </ContentSection>
 
-        {/* Content */}
+        <ContentSection>
+          <Title id="skills">Skills</Title>
+          <Skills />
+        </ContentSection>
 
-        <section className={cx("px-6", "text-sm")}>
-          <ContentSection>
-            <Title id="about-me">About me</Title>
-            <MdxContent path="/intro.mdx" />
+        <ContentSection>
+          <Title id="experience">Experience</Title>
+          <MdxList pattern="/experience/*.mdx" />
+        </ContentSection>
 
-            <p className="pt-2">
-              For an extended version of this resume visit{" "}
-              <a
-                className={cx("text-pink-600", "hover:underline")}
-                href="https://geertpasteels.be"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                https://geertpasteels.be
-              </a>
-            </p>
-          </ContentSection>
+        <ContentSection>
+          <Title id="education">Education</Title>
+          <MdxList pattern="/education/*.mdx" />
+        </ContentSection>
 
-          <ContentSection>
-            <Title id="skills">Skills</Title>
-            <Skills />
-          </ContentSection>
+        <ContentSection>
+          <Title id="references">References</Title>
+          <MdxContent path="/references.mdx" />
+        </ContentSection>
+      </section>
 
-          <ContentSection>
-            <Title id="experience">Experience</Title>
-            <MdxList pattern="/experience/*.mdx" />
-          </ContentSection>
+      {/* Footer */}
 
-          <ContentSection>
-            <Title id="education">Education</Title>
-            <MdxList pattern="/education/*.mdx" />
-          </ContentSection>
-
-          <ContentSection>
-            <Title id="references">References</Title>
-            <MdxContent path="/references.mdx" />
-          </ContentSection>
-        </section>
+      <div
+        className={cx(
+          "px-14",
+          "pt-10",
+          "flex",
+          "items-start",
+          "justify-center",
+          "gap-28",
+          "print:gap-20",
+          "text-center",
+          "text-sm",
+          "border-t",
+        )}
+      >
+        <Languages />
+        <Interests />
+        <Profiles />
       </div>
     </div>
   );

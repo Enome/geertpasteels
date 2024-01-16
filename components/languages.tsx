@@ -16,7 +16,7 @@ export default async function Languages() {
       <SubSectionTitle1>Languages</SubSectionTitle1>
 
       {data.map((a) => (
-        <div key={a.name} className="mb-5">
+        <div key={a.name} className="mb-5 last:mb-0">
           <SubSectionTitle2 className="mb-1">{a.name}</SubSectionTitle2>
           <Stars length={5} level={a.level} />
         </div>

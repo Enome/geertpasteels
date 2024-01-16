@@ -22,6 +22,7 @@ function Link(props: { href: string; children: React.ReactNode }) {
         "items-center",
         "justify-center",
         "mb-2",
+        "last:mb-0",
         "hover:underline",
       )}
     >
