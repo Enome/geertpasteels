@@ -131,7 +131,7 @@ export default async function Home() {
                       Contact me
                     </span>
                     <span className={cx("block", "font-bold")}>
-                      I'm open to new projects.
+                      I am open to new projects.
                     </span>
                   </a>
                 </p>
