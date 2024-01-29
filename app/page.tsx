@@ -116,17 +116,23 @@ export default async function Home() {
                       "inline-block",
                       "border",
                       "border-1",
-                      "border-emerald-400",
-                      "bg-emerald-50",
-                      "text-emerald-700",
-                      "hover:bg-emerald-200",
-                      "px-4 py-3",
+                      "border-red-200",
+                      "bg-red-50",
+                      "text-red-700",
+                      "hover:border-red-400",
+                      "hover:bg-red-100",
+                      "hover:text-red-900",
+                      "px-6 py-4",
                       "rounded",
                       "text-sm",
-                      "font-bold",
                     )}
                   >
-                    Contact me
+                    <span className={cx("block", "text-xl", "mb-0.5")}>
+                      Contact me
+                    </span>
+                    <span className={cx("block", "font-bold")}>
+                      I'm open to new projects.
+                    </span>
                   </a>
                 </p>
               </ContentSection>
